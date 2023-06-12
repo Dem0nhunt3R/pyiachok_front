@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import css from './Home.module.css'
 
 const Home = () => {
-    const [city1, setCity1] = useState('Kyiv');
+    const [city, setCity] = useState('Kyiv');
     const types = ['Cafe', 'Bar', 'Restaurant', 'Pub', 'Pizzeria', 'Coffee-shop', 'Confectionery', 'Online-restaurant',
         'Anti-cafe', 'Burger-restaurant', 'Country-restaurant', 'Hookah', 'Food-market', 'Food-zone', 'Fast-food', 'Food-truck',
         'Night-club', 'Country-club', 'Catering', 'Event-location', 'Bake'
